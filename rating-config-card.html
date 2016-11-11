@@ -1,0 +1,34 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<!--
+`rating-config-card`
+paper-card with rating and config options
+
+@demo demo/index.html 
+-->
+
+<dom-module id="rating-config-card">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'rating-config-card',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'rating-config-card',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
